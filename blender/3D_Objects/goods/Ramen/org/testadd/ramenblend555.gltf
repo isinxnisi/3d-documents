@@ -1,0 +1,170 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 7092,
+            "max" : [
+                1407
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1408,
+            "max" : [
+                1.0709925889968872,
+                0.6762421727180481,
+                1.0709925889968872
+            ],
+            "min" : [
+                -1.0709925889968872,
+                -0.11458128690719604,
+                -1.0709924697875977
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1408,
+            "max" : [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -1.0,
+                -0.999969482421875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1408,
+            "max" : [
+                0.9998540878295898,
+                0.9998541232780553
+            ],
+            "min" : [
+                0.00014587672194465995,
+                0.09459483623504639
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 14184,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16896,
+            "byteOffset" : 14184,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16896,
+            "byteOffset" : 31080,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11264,
+            "byteOffset" : 47976,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 59240,
+            "uri" : "ramenblend555.bin"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.481131553649902,
+                5.34366512298584,
+                6.5076398849487305
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Cylinder"
+        },
+        {
+            "name" : "Lamp",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558802962303162,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "translation" : [
+                0.9381804466247559,
+                3.9651644229888916,
+                0.33599185943603516
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                1,
+                2,
+                0
+            ]
+        }
+    ]
+}
